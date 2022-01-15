@@ -227,8 +227,8 @@ footer ol {
 	gap:1rem;
 }
 footer ol li{
-	border: 2px solid #fff;
-	border-radius: 5px;
+	/* border: 2px solid #fff; */
+	/* border-radius: 5px; */
 	flex: 1 0 12rem;
 	max-width:12rem;
 	padding:10px;
