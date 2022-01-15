@@ -81,7 +81,14 @@ sequence. */
 	cursor:pointer;
 	white-space:nowrap;
 }
-
+.hamburger-position .w3-button{
+	border:2px solid #666;
+	padding:8px;
+	margin-left:0.4rem;
+	border-radius: 15rem;
+	line-height: 1;
+	background-color:rgba(255, 255, 255, 0.7);
+}
 .w3-button {
 	-webkit-touch-callout:none;
 	-webkit-user-select:none;
@@ -183,10 +190,6 @@ header {
     /* box-shadow: 0 0 15px rgb(84 111 70); */
   }
 
-main, .bg-container {
-	width: 71%;
-	margin: 20px auto;
-	}
 
 main {
 	padding-top: 20px;
@@ -252,6 +255,10 @@ footer a:hover, a:active {
  nav {
  	width: 40%;
  }
+ main, .bg-container {
+	width: 80%;
+	margin: 20px auto;
+}
 
 .outer-container {
 	display: flex;
