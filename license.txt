@@ -5,14 +5,12 @@ licenses and Permissions
 
 --- Images ---
 
-red-lollipop-6857.jpg | Photo by Brecht Deboosere on Unsplash | Free to use under the Unsplash License| downloaded from: https://unsplash.com/photos/pIi_cX_yTf4 
+red-lollipop-500.jpg | Photo by Brecht Deboosere on Unsplash | Free to use under the Unsplash License| downloaded from: https://unsplash.com/photos/pIi_cX_yTf4 
 
-lollipops-4000.jpg | Photo by insung yoon on Unsplash | Free to use under the Unsplash License | Downloaded from: https://unsplash.com/photos/ewqmlik3x6o 
+lollipops-300.jpg | Photo by insung yoon on Unsplash | Free to use under the Unsplash License | Downloaded from: https://unsplash.com/photos/ewqmlik3x6o 
 
-cannabis-lollipop-626.jpg | Photo by kiliweb with additional modifications by segundo per Open Food Facts | Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) | Downloaded from: https://world.openfoodfacts.org/product/8594196132420/cannabis-lollipops
+cannabis-lollipop-300.jpg | Photo by kiliweb with additional modifications by segundo per Open Food Facts | Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) | Downloaded from: https://world.openfoodfacts.org/product/8594196132420/cannabis-lollipops
 
-effects-of-cannabis-lollipop.jpg | Photo by cottonbro on Pexels| Free to use. No attribution required. | https://www.pexels.com/photo/skeleton-full-of-candy-5554180/
+effects-of-cannabis-lollipop-300.jpg | Photo by cottonbro on Pexels| Free to use. No attribution required. | https://www.pexels.com/photo/skeleton-full-of-candy-5554180/
 
-cannabis.jpg | Photo by Kindel Media from Pexels| Free to use. No attribution required| https://www.pexels.com/photo/photo-of-cannabis-leaves-on-white-background-7667835/
-
-scale.jpg | Photo by Sora Shimazaki from Pexels| Free to use. No attribution required| https://www.pexels.com/photo/judgement-scale-and-gavel-in-judge-office-5669602/ 
+scale-300.jpg | Photo by Sora Shimazaki from Pexels| Free to use. No attribution required| https://www.pexels.com/photo/judgement-scale-and-gavel-in-judge-office-5669602/ 

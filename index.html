@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cannabis infused Lollipop</title>
-	<meta name="description" content=""/>
+	<meta name="description" content="Cannabis infused lollipop"/>
 	<meta name="keywords" content=""/>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,9 +26,10 @@
 	<!-- Navigation Sidebar (hidden by default) -->
 	<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-animate-left" id="mySidebar">
   		<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
-  		<a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Nav Item One</a>
-  		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Nav Item Two</a>
-  		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Nav Item Three</a>
+  		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  		<a href="#active-ingredients" onclick="w3_close()" class="w3-bar-item w3-button">Active Ingredients</a>
+  		<a href="#effects" onclick="w3_close()" class="w3-bar-item w3-button">Effects</a>
+		<a href="#laws" onclick="w3_close()" class="w3-bar-item w3-button">Laws</a>
 	</nav>
 
 	<!-- Top menu -->
@@ -59,7 +60,7 @@
 	
 		<section class="content">
 			<h2>All about Cannabis Lollipops</h2>	
-		<article>
+		<article id="about">
 			<picture class="image-container">
 				<source media="(min-width:500px)" srcset="img/cannabis-lollipop-534.jpg">
 				<img src="img/cannabis-lollipop-300.jpg" alt="Packged cannabis infused lollipops" />
@@ -69,7 +70,7 @@
 		</article>
 		<article>
 			<div class="outer-container">
-				<div class="inner-container"> <!-- First inner container -->
+				<div class="inner-container" id="active-ingredients"> <!-- First inner container -->
 					<picture class="image-container">
 						<source media="(min-width:900px)" srcset="img/lollipops-300.jpg">
 						<source media="(min-width:500px)" srcset="img/lollipops-534.jpg">
@@ -79,7 +80,7 @@
 					<p>When we talk about cannabis products the two main active ingredients of interest are Delta-g-tetrahydrocannabinol (THC) and Cannabidiol (CBD). THC and CBD are both lipids and are lipophilic and initially they were thought to interact with the cell membrane lipids. However, after more research it has been found that THC works by binding to the cannabinoid receptor CB1 in the central nervous system (mainly the brain) and CB2 in the immune system. The activation of CB1 and CB2 receptors is what causes the sensation of euphoria and being high. </p>
 					<p>CBD on the other hand has negligible affinity to these receptors, which is why only using CBD does not get you high. CBD works in a more indirect way by blocking and enhancing other receptors. One of its effects is that it makes some receptors more receptive to serotonin, which leads to enhancement in a person's mood and relaxation.</p>
 				</div> <!-- End of the first inner container -->
-				<div class="inner-container"> <!-- Second inner container -->
+				<div class="inner-container" id="effects"> <!-- Second inner container -->
 					<picture class="image-container">
 						<source media="(min-width:900px)" srcset="img/effects-of-cannabis-lolipop-300.jpg">
 						<source media="(min-width:500px)" srcset="img/effects-of-cannabis-lolipop-534.jpg">
@@ -110,7 +111,7 @@
 				</div> <!-- End of the second inner container -->
 			</div> <!-- End of the outer container -->
 		</article>
-		<article>
+		<article id="laws">
 			<picture class="image-container">
 				<source media="(min-width:500px)" srcset="img/scale-534.jpg">
 				<img src="img/scale-300.jpg" alt="Scales and gavel" />
