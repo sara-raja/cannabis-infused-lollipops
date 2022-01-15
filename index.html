@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cannabis infused Lollipop</title>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
@@ -38,7 +40,12 @@
 
 	<header>
 		<div class="header-bg-wrap"> <!-- Image as content not design -->
-  		  <img class="header-bg-image" src="img/red-lollipop-1920.jpg" alt="Red cannabis infused lollipop">
+			<picture class="header-bg-image">
+				<source media="(min-width:1200px)" srcset="img/red-lollipop-1920.jpg">
+				<source media="(min-width:800px)" srcset="img/red-lollipop-1200.jpg">
+				<source media="(min-width:500px)" srcset="img/red-lollipop-800.jpg">
+				<img src="img/red-lollipop-500.jpg" alt="Red cannabis infused lollipop">
+			</picture>
   		  <div class="header-content">
     		<h1>Cannabis Infused Lollipops</h1>
 			<h2>A sweeter way to get high</h2>

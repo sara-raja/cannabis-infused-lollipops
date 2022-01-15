@@ -103,6 +103,7 @@ header h1{ /* 64px is 3.333%  of 1920px */
 }
 header h2 { /* 40px is 2.083%  of 1920px */
 	font-size: 2.083vw;
+	margin: 2rem 0;
 }
 
 .shine {  /*  Call to action color  */
@@ -118,7 +119,6 @@ header h1, h2, h3 {
 }
 
 h2, h3 {
-	/* line-height: 1; */
 	margin: 40px 0;
 }
 h2 {
@@ -161,7 +161,6 @@ header {
 }
 
 .header-bg-image {
-  	opacity: 0.5;
   	/*The opacity property specifies the opacity/transparency of an element.*/
   	position: absolute;
   	left: 0;
@@ -171,12 +170,11 @@ header {
 }
 
 .header-content {
-	height: 46.296vh; /* Roughly 500px of 1080px high screen */
- 	position: relative;
-  	display: flex;
-  	flex-direction: column;
-  	align-items: center;
-  	justify-content: center;
+	padding: 2rem 0;
+	position: relative;
+	text-align: center;
+	margin: 1rem;
+	background-color: rgba(255, 255, 255, 0.5);
   }
 
 main, .bg-container {
