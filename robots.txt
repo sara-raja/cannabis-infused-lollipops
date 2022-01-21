@@ -1,0 +1,3 @@
+user-agent: *
+Disallow: 
+Sitemap: https://cannabis-infused-lollipops.netlify.app/sitemap.xml
