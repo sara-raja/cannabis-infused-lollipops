@@ -2,7 +2,7 @@
 body {
 	font-family: 'Murecho', sans-serif;
 	color: #666;
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 1.5;
 	}
 
@@ -227,7 +227,7 @@ footer ol {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	gap:1rem;
+	gap:2rem;
 }
 footer ol li{
 	/* border: 2px solid #fff; */
