@@ -1,0 +1,20 @@
+/* TEAM */
+	Designer: Shirasa Prajapati
+	Contact: cannabis.infused.lollipops@gmail.com
+	Instagram: @cannabis.infused.lollipops
+	From: Alberta, Canada
+
+/* THANKS */
+	Ayubenda for Privacy policy
+	Wix for logos
+	Unsplash for images
+	Pexels for images
+	Google Analytics for analytics
+	Netlify for hosting
+	Github
+
+/* SITE */
+	Last update:2022/02/11
+	Language: English
+	Doctype:HTML5
+	IDE: Sublime Text, Notepad++, Photoshop, Illustrator, Squoosh

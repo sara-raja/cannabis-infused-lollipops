@@ -228,6 +228,7 @@ footer ol {
 	align-items: center;
 	justify-content: center;
 	gap:20px;
+	padding: 0 10px;
 }
 footer ol li{
 	border: 2px solid #fff;
