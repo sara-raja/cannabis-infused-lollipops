@@ -200,6 +200,9 @@ header {
 main {
 	overflow: hidden;
 }
+img{
+	margin: 1rem auto;
+}
 aside img{
 	margin: 0 auto;
 }
@@ -277,6 +280,18 @@ footer a:link, a:visited {
 footer a:hover, a:active {
 	text-decoration: underline;
 	background-color: #bacf99;
+}
+
+@media only screen and (min-width: 600px){
+	.flex{
+		display: flex;
+		justify-content:space-between;
+		align-items:center;
+		width:100%;
+	}
+	.flex img{
+		width:48%;
+	}
 }
 
 @media only screen and  (min-width:900px) {
