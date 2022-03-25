@@ -142,6 +142,7 @@ h3 {
 
 h4{
 	font-size: clamp(1.125rem, 2vw, 1.5rem);
+	margin:22px 0;
 }
 p {
 	margin-bottom: 18px;
