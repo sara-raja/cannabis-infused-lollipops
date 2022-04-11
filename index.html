@@ -38,24 +38,32 @@
 </head>
 
 <body>
-	<!-- Navigation Sidebar (hidden by default) -->
-	<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-animate-left" id="mySidebar">
-  		<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
-  		<a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">History</a>
-  		<a href="#active-ingredients" onclick="w3_close()" class="w3-bar-item w3-button">Active Ingredients</a>
-  		<a href="#effects" onclick="w3_close()" class="w3-bar-item w3-button">Effects</a>
-		<a href="#recipe" onclick="w3_close()" class="w3-bar-item w3-button">Recipe</a>
-		<a href="#laws" onclick="w3_close()" class="w3-bar-item w3-button">Laws</a>
-	</nav>
-
-	<!-- Top menu -->
-	<div class="w3-top">
-  		<div class="hamburger-position">
-    		<div class="w3-button w3-padding-16 " onclick="w3_open()">&#9776;</div> <!-- &#9776; is the Entity Code for the hamburger icon -->
-  		</div>
-	</div>
 
 	<header>
+		<div class="navigation">
+			<h1>CIL</h1>
+			<button class="toggle-btn">
+				<svg viewBox="0 0 100 80" width="40" height="40">
+				  <rect width="100" height="20" rx="8"></rect>
+				  <rect y="30" width="100" height="20" rx="8"></rect>
+				  <rect y="60" width="100" height="20" rx="8"></rect>
+				</svg>
+			</button>
+		
+			<nav class="menu">
+			  <ul>
+				<li><a href="#about">History</a></li>
+				<li><a href="#active-ingredients">Active Ingredients</a></li>
+				<li><a href="#effects">Effects</a></li>
+				<li><a href="#recipe">Recipe</a></li>
+				<li><a href="#laws">Laws</a></li>
+			  </ul>
+			</nav>
+		</div>
+
+	</header>
+	
+	<main>
 		<div class="header-bg-wrap"> <!-- Image as content not design -->
 			<picture class="header-bg-image">
 				<source media="(min-width:1200px)" srcset="img/red-lollipop-1920.jpg">
@@ -68,9 +76,6 @@
 			<h2>A sweeter way to get high</h2>
   		  </div>
 		</div>
-	</header>
-	
-	<main>
 		<aside class="ad">
 			<a href="#"><img src="img/leaderboard-banner.jpg" alt="leaderboard banner ad"></a>
 		</aside>
@@ -211,16 +216,7 @@
 	  </div>
 	</footer>
 	
-	<script>
-	// Script to open and close sidebar
-	function w3_open() {
-  		document.getElementById("mySidebar").style.display = "block";
-	}
- 
-	function w3_close() {
-  		document.getElementById("mySidebar").style.display = "none";
-	}
-	</script>
+	<script src="js/index.js"></script>
 </body>
 </html>
 
