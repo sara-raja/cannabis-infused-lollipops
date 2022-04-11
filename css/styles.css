@@ -13,6 +13,11 @@ main{
 	margin: 20px auto;
 }
 /* Header */
+header{
+	position:sticky;
+	top:0;
+	z-index:100;
+}
 /* Toggle Button */
 header div{
 	display: flex;
